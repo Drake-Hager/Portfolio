@@ -2,15 +2,16 @@ import React from "react";
 
 function article_1() {
 	return {
-		date: "7 May 2023",
-		title: "The Benefits of Cloud Computing",
+		date: "Present",
+		title: "My Resume",
 		description:
-			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
+			"Here is a PDF document of my resume, feel free to download and look at it.",
 		keywords: [
-			"The Benefits of Cloud Computing",
-			"Tharindu",
-			"Tharindu N",
-			"Tharindu Nayanajith",
+			"Drake Hager",
+			"Resume", 
+			"Drake Hager Resume",
+			"Web Developer",
+			"Web Developer Resume"
 		],
 		style: `
 				.article-content {
@@ -27,12 +28,11 @@ function article_1() {
 		body: (
 			<React.Fragment>
 				<div className="article-content">
-					<div className="paragraph">Content of article 1</div>
-					<img
-						src="https://picsum.photos/200/300"
-						alt="random"
-						className="randImage"
-					/>
+					<img src={`${process.env.PUBLIC_URL}/Resume-SS.png`} className="randImage" alt="Resume"/>
+					<a
+						href={process.env.PUBLIC_URL + "/Fixed-Resume.pdf"} target="blank" rel="noopener noreferrer">
+					Click here to view
+					</a>
 				</div>
 			</React.Fragment>
 		),

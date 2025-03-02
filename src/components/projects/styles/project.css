@@ -10,6 +10,12 @@
 .project a {
 	text-decoration: none;
 }
+.project-image{
+	width:auto;
+	height:18vh;
+	justify-content: center;
+	border: solid 1px red;
+}
 
 .project:hover {
 	background: #fafafa;
