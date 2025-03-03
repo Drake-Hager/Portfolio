@@ -104,7 +104,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src={process.env.PUBLIC_URL + "/homepage.jpg"}
+											src={process.env.PUBLIC_URL + "homepage.jpg"}
 											alt="about"
 											className="homepage-image"
 										/>
@@ -112,6 +112,8 @@ const Homepage = () => {
 								</div>
 							</div>
 						</div>
+
+						<div className="homepage-socials">
 							<a
 								href={INFO.socials.github}
 								target="_blank"
