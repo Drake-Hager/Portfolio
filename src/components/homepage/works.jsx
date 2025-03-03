@@ -15,7 +15,7 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./Ranken-logo.jpg"
+								src={process.env.PUBLIC_URL + "/Ranken-logo.jpg"}
 								alt="facebook"
 								className="work-image"
 							/>
@@ -28,7 +28,7 @@ const Works = () => {
 
 						<div className="work">
 							<img
-								src="./Walmart-logo.jpg"
+								src={process.env.PUBLIC_URL + "/Walmart-logo.jpg"}
 								alt="twitter"
 								className="work-image"
 							/>
