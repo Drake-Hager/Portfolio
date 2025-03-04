@@ -28,9 +28,9 @@ function article_1() {
 		body: (
 			<React.Fragment>
 				<div className="article-content">
-					<img src={`${process.env.PUBLIC_URL}/Resume-SS.png`} className="randImage" alt="Resume"/>
+					<img src={`${process.env.PUBLIC_URL}/Final-Resume-SS.png`} className="randImage" alt="Resume"/>
 					<a
-						href={process.env.PUBLIC_URL + "/Fixed-Resume.pdf"} target="blank" rel="noopener noreferrer">
+						href={process.env.PUBLIC_URL + "/Final-Resume.pdf"} target="blank" rel="noopener noreferrer">
 					Click here to view
 					</a>
 				</div>
