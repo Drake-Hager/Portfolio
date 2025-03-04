@@ -1,12 +1,12 @@
 {
-	"name": "reactfolio",
+	"name": "portfolio",
 	"version": "1.1.0",
 	"description": "Personal portfolio template built using Reactjs",
 	"author": {
 		"name": "Drake Hager",
 		"email": "hagerdrake@gmail.com"
 	},
-	"homepage": "https://Drake-Hager.github.io/Portfolio",
+	"homepage": "https://Drake-Hager.github.io/",
 	"license": "MIT",
 	"private": true,
 	"dependencies": {
